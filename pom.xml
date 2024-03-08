@@ -10,6 +10,7 @@
     <groupId>com.someecho</groupId>
     <artifactId>sojava</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>sojava</name>
     <description>sojava</description>
     <properties>
