@@ -1,6 +1,7 @@
 package com.someecho.sojava.thread.multithread.base.threadsafe.extthread;
 
-import multithread.base.threadsafe.LoginServlet;
+
+import com.someecho.sojava.thread.multithread.base.threadsafe.LoginServlet;
 
 /**
  * Created by mlh on 2017/12/22.

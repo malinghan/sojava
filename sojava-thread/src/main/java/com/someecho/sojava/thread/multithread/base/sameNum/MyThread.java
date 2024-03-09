@@ -12,7 +12,7 @@ public class MyThread extends Thread{
     }
 
     public static void main(String[] args) {
-        multithread.base.MyThread run = new multithread.base.MyThread();
+        MyThread run = new MyThread();
         Thread t1=new Thread(run);
         Thread t2=new Thread(run);
         Thread t3=new Thread(run);

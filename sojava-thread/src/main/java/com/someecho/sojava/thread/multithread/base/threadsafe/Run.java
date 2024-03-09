@@ -1,7 +1,8 @@
 package com.someecho.sojava.thread.multithread.base.threadsafe;
 
-import multithread.base.threadsafe.extthread.ALogin;
-import multithread.base.threadsafe.extthread.BLogin;
+
+import com.someecho.sojava.thread.multithread.base.threadsafe.extthread.ALogin;
+import com.someecho.sojava.thread.multithread.base.threadsafe.extthread.BLogin;
 
 /**
  * Created by mlh on 2017/12/22.

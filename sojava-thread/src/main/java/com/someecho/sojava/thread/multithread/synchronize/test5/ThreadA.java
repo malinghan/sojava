@@ -1,7 +1,5 @@
 package com.someecho.sojava.thread.multithread.synchronize.test5;
 
-import multithread.synchronize.test4.MyObject;
-
 /**
  * Created by mlh on 2017/12/22.
  */

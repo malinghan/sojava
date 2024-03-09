@@ -1,5 +1,4 @@
 package com.someecho.sojava.thread.multithread.base;
-import java.util.concurrent.*;
 /**
  * Created by mlh on 2017/12/17.
  *
