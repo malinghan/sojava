@@ -18,6 +18,10 @@ public class ExceptionDemo03 {
 
     static void testNPE() {
      }
+
+    public static void main(String[] args) {
+        System.out.println(ExceptionDemo03.tryCatchReturn());
+    }
 }
 //
 //public class com.someecho.sojava.core.exception.ExceptionDemo03 {
@@ -33,7 +37,7 @@ public class ExceptionDemo03 {
 //        3: ldc           #12                 // String OK
 //        5: astore_0
 //        6: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
-//        9: ldc           #20                 // String tryCatchReturn
+//        9: ldc           #20                 // String tryCatchReturn  //1
 //        11: invokevirtual #22                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
 //        14: aload_0
 //        15: areturn
@@ -41,13 +45,13 @@ public class ExceptionDemo03 {
 //        17: ldc           #30                 // String ERROR
 //        19: astore_1
 //        20: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
-//        23: ldc           #20                 // String tryCatchReturn
+//        23: ldc           #20                 // String tryCatchReturn //2
 //        25: invokevirtual #22                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
 //        28: aload_1
 //        29: areturn
 //        30: astore_2
 //        31: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
-//        34: ldc           #20                 // String tryCatchReturn
+//        34: ldc           #20                 // String tryCatchReturn  //3
 //        36: invokevirtual #22                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
 //        39: aload_2
 //        40: athrow
